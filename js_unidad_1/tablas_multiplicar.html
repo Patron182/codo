@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tablas de multiplicar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h2>Tablas de Multiplicar</h2>
+
+        <p>Ingrese un número haga click en Calcular y obtenga la tabla de multiplicar</p>
+        <input type="number" id="numero" placeholder="Ingrese un número">
+        <input type="button" onclick="tablas(numero.value)" value="Calcular">
+        <br><br>
+        <p id="resultado"></p>
+    </div>
+    <script>
+        function tablas(numero) {
+            var respuesta = "<br>";
+            var numero = parseInt(numero);
+
+            if (Number.isInteger(numero)) {
+                for (var x = 1; x <= 10; x++) {
+                    respuesta += numero + " x " + x + " = " + numero * x + " <br>";
+                }
+            } else {
+                respuesta = "Ingrese un número";
+            }
+
+            document.getElementById("resultado").innerHTML = "Resultado: " + respuesta;
+        }
+    </script>
+</body>
+
+</html>

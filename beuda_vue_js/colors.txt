@@ -1,0 +1,32 @@
+Main
+#32A827 #23781C verde principal
+#91FF87 verde claro
+#6ADE5F #397834 verde normal 
+
+#912167 #781C54 violeta
+#DE5FAE rosa
+
+
+Alter
+#B9BF04 verde claro
+#888C03 verde medio
+#595302 verde oscuro
+
+#586F8C azul
+#F2D0A7 rosa
+
+
+
+
+
+
+안녕하세요 - Hola
+감사합니다 - Gracias
+있다 - Tener
+이다 - Ser
+알다 - Saber
+없다 - No tener
+모르다 - No saber
+밤 - Noche
+아침 - Mañana (momento del día)
+내일 - Mañana

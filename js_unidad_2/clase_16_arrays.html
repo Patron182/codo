@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sort Arrays</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <h4>Ordenando Arrays</h4>
+
+        <h6>Arrays creados aleatoriamente</h6>
+        <p id="arrayStr"></p>
+        <p id="arrayInt"></p>
+        <p id="arrayFloat"></p>
+        <hr>
+
+        <h6>Ordenando arrays con .sort()</h6>
+        <p id="arrayStrSort"></p>
+        <p id="arrayIntSort"></p>
+        <p id="arrayFloatSort"></p>
+        <hr>
+
+        <h6>Ordenando arrays numéricos</h6>
+        <p>Si no se provee compareFunction, los elementos son ordenados convirtiéndolos a strings y al comparar "9" y
+            "100" el 100 queda primero ya que 9 > 1 que es el primer cracter del "100", en este caso se provee una
+            funcion para restar los numeros <i>sort((a,b)=>a-b)</i> y asi el de menor valor sera puesto primero.</p>
+        <p id="arrayIntSortNumber"></p>
+        <p id="arrayFloatSortNumber"></p>
+    </div>
+
+    <script src="js/arrays_sort.js"></script>
+</body>
+
+</html>

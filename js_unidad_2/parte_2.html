@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>JS Unidad 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body class="container mt-3">
+    <h4>Ejercicios adicionales Unidad 2 Parte 2</h4>
+
+    <div class="list-group">
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">Se creara un array para los ejercicios, se puede crear un nuevo array especificando la
+                    edad
+                    mínima y la cantidad de elementos</p>
+                <label for="uname">Cantidad:</label> <input type="number" class="form-control mr-2" id="num_1"
+                    placeholder="Cantidad">
+                <label for="uname">Edad Mínima:</label> <input type="number" class="form-control mr-2" id="num_2"
+                    placeholder="Edad Mínima">
+                <button type="button" class="btn btn-primary" onclick="initializeArrays(num_1.value,num_2.value)">Nuevo
+                    Array</button>
+                <div class="mt-3">Array Numérico: <p class="d-inline" id="arrayNumerico"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">Ejercicio 1:cree un array con todas las edades de los estudiantes de su clase. Itere el
+                array
+                utilizando un bucle while y luego imprima todas las edades en la consola. </p>
+            <button type="button" class="btn btn-primary" onclick="punto1()">Punto 1</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta1"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">Ejercicio 2: Al ejercicio 1 agregue un condicional dentro del ciclo while para imprimir
+                solo
+                números pares. Cambie el ciclo para usar un ciclo "for" en lugar de un ciclo "while".</p>
+            <button type="button" class="btn btn-primary" onclick="punto2()">Punto 2</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta2"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">Ejercicio 3:escriba una función que reciba un array como parámetro e imprima el número más
+                bajo
+                de la array en la consola.</p>
+            <button type="button" class="btn btn-primary" onclick="punto3()">Punto 3</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta3"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">Ejercicio 4:escriba una función que reciba un array como parámetro e imprima el número más
+                grande de la array en la consola.</p>
+            <button type="button" class="btn btn-primary" onclick="punto4()">Punto 4</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta4"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">Ejercicio 5:Escriba una función que reciba dos parámetros, una array y un índice. La
+                    función imprimirá el valor del elemento en la posición dada (basado en uno) en la consola.</p>
+                <button type="button" class="btn btn-primary" onclick="punto5()">Punto 5</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta5"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">Ejercicio 6:Escriba una función que reciba una array y solo imprima los valores que se
+                repiten.
+            </p>
+            <button type="button" class="btn btn-primary" onclick="punto6()">Punto 6</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta6"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">Ejercicio 7:escriba una función de JavaScript simple para unir todos los elementos de
+                    la siguiente array en una cadena.
+                </p>
+                <button type="button" class="btn btn-primary" onclick="punto7()">Punto 7</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta7"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">Ejercicio 8:escriba una función de JavaScriptque invierta un número. Por ejemplo, si x
+                    = 32443, la salida debería ser 34423.</p>
+                <input type="number" class="form-control mr-2" id="num_3" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto8(num_3.value)">Punto 8</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta8"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">Ejercicio 9:escriba una función de JavaScript que devuelva una cadena en orden
+                    alfabético. Por ejemplo, si x = 'webmaster', la salida debería ser 'abeemrstw'. La puntuación y los
+                    números no se pasan en la cadena.</p>
+                <input type="text" class="form-control mr-2" id="str_1" placeholder="Frase">
+                <button type="button" class="btn btn-primary" onclick="punto9(str_1.value)">Punto 9</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta9"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">Ejercicio 10:escriba una función de JavaScript que convierta la primera letra de cada
+                palabra a mayúsculas. Por ejemplo, si x = "prince of persia", la salida debería ser "Prince Of Persia".
+            </p>
+            <button type="button" class="btn btn-primary" onclick="punto10(str_1.value)">Punto 10</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta10"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">Ejercicio 11:escriba una función de JavaScript que busque la palabra más larga de una
+                frase. Por ejemplo, si x = "Tutorial de desarrollo web", el resultado debería ser "Desarrollo".</p>
+            <button type="button" class="btn btn-primary" onclick="punto11(str_1.value)">Punto 11</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta11"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/unidad_2_2.js">
+    </script>
+</body>
+
+</html>

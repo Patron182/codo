@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JS Unidad 1</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/unidad_1.js">
+    </script>
+</head>
+
+<body class="container mt-3">
+    <h4>Ejercicios adicionales de Javascript</h4>
+    <div class="list-group">
+        <div class="list-group-item">
+            <p class="w-100">1.Escribe un programa de una sola línea que haga que aparezca en la pantalla un alertque
+                diga “Hello World”</p>
+            <button type="button" class="btn btn-primary" onclick="punto1()">Punto 1</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta1"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">2.Escribe un programa de una sola línea que escriba en la pantalla un texto que diga “Hello
+                World” </p>
+            <button type="button" class="btn btn-primary" onclick="punto2()">Punto 2</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta2"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">3.Escribe un programa de una sola línea que escriba en la pantalla el resultado de sumar 3
+                + 5.</p>
+            <button type="button" class="btn btn-primary" onclick="punto3()">Punto 3</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta3"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">4.Escribe un programa de dos líneas que pida el nombre del usuario con un prompty escriba
+                un texto que diga “Hola nombreUsuario”</p>
+            <button type="button" class="btn btn-primary" onclick="punto4()">Punto 4</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta4"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">5.Escribe un programa de tres líneas que pida un número, pida otro número y escriba el
+                    resultado de sumar estos dos números</p>
+                <input type="number" class="form-control mr-2" id="num_1" placeholder="Número">
+                <input type="number" class="form-control mr-2" id="num_2" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto5()">Punto 5</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta5"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">6.Escribe un programa que pida dos números y escriba en la pantalla cual es el mayor</p>
+            <button type="button" class="btn btn-primary" onclick="punto6()">Punto 6</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta6"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">7.Escribe un programa que pida 3 números y escriba en la pantalla el mayor de los tres.
+                </p>
+                <input type="number" class="form-control mr-2" id="num_3" placeholder="Número">
+                <input type="number" class="form-control mr-2" id="num_4" placeholder="Número">
+                <input type="number" class="form-control mr-2" id="num_5" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto7()">Punto 7</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta7"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">8.Escribe un programa que pida un número y diga si es divisible por 2</p>
+                <input type="number" class="form-control mr-2" id="num_6" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto8()">Punto 8</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta8"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">9.Escribe un programa que pida una frase y escriba cuantas veces aparecela letra a</p>
+                <input type="text" class="form-control mr-2" id="str_1" placeholder="Frase">
+                <button type="button" class="btn btn-primary" onclick="punto9()">Punto 9</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta9"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">10.Escribe un programa que pida una frase y escriba las vocales que aparecen (usa la frase
+                del punto 9)</p>
+            <button type="button" class="btn btn-primary" onclick="punto10()">Punto 10</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta10"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">11.Escribe un programa que pida una frase y escriba cuántas de las letras que tiene son
+                vocales (usa la frase del punto 9)</p>
+            <button type="button" class="btn btn-primary" onclick="punto11()">Punto 11</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta11"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">12.Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las
+                vocales (usa la frase del punto 9)</p>
+            <button type="button" class="btn btn-primary" onclick="punto12()">Punto 12</button>
+            <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta12"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">13.Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7
+                    (sólo hay que comprobar si lo es por uno de los cuatro)</p>
+                <input type="number" class="form-control mr-2" id="num_7" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto13()">Punto 13</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta13"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">14.Añadir al ejercicio anterior que nos diga por cual de los cuatro es divisible (hay
+                    que decir todos por los que es divisible)</p>
+                <input type="number" class="form-control mr-2" id="num_8" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto14()">Punto 14</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta14"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">15.Escribir un programa que escriba en pantalla los divisores de un número dado</p>
+                <button type="button" class="btn btn-primary" onclick="punto15()">Punto 15</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta15"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">16.Escribir un programa que escriba en pantalla los divisores comunes de dos números
+                    dados</p>
+                <input type="number" class="form-control mr-2" id="num_9" placeholder="Número">
+                <input type="number" class="form-control mr-2" id="num_10" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto16()">Punto 16</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta16"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">17.Escribir un programa que nos diga si un número dado es primo (no es divisible por
+                    ninguno otro número que no sea él mismo o la unidad)</p>
+                <input type="number" class="form-control mr-2" id="num_11" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto17()">Punto 17</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta17"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">18.Pide la edad y si es mayor de 18 años indica que ya puede conducir</p>
+                <input type="number" class="form-control mr-2" id="num_12" placeholder="Edad">
+                <button type="button" class="btn btn-primary" onclick="punto18()">Punto 18</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta18"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">19.Pide una nota (número). Muestra la calificación según la nota</p>
+                <input type="number" class="form-control mr-2" id="num_13" placeholder="Nota">
+                <button type="button" class="btn btn-primary" onclick="punto19()">Punto 19</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta19"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">20. Realiza un script que pida cadenas de texto hasta que se pulse “cancelar”. Al salir
+                    con “cancelar” deben mostrarse todas las cadenas concatenadas con un guión</p>
+                <button type="button" class="btn btn-primary" onclick="punto20()">Punto 20</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta20"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">21. Realiza un script que pida números hasta que se pulse “cancelar”. Si no es un
+                    número deberá indicarse con un «alert» y seguir pidiendo. Al salir con “cancelar” deberá indicarse
+                    la suma total de los números introducidos</p>
+                <button type="button" class="btn btn-primary" onclick="punto21()">Punto 21</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta21"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">22. Realizar una página con un script que calcule el valor de la letra de un número de
+                    DNI (Documento nacional de indentidad)</p>
+                <input type="number" class="form-control mr-2" id="num_14" placeholder="DNI">
+                <button type="button" class="btn btn-primary" onclick="punto22()">Punto 22</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta22"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">23. Realiza un script que escriba una pirámide del 1 al 30</p>
+                <button type="button" class="btn btn-primary" onclick="punto23()">Punto 23</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta23"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">24. Haz un script que escriba una pirámide inversa de los números del 1 al número que
+                    indique el
+                    usuario</p>
+                <input type="number" class="form-control mr-2" id="num_15" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto24()">Punto 24</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta24"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">25. Crea script para generar pirámide siguiente con los números del 1 al número que
+                    indique el usuario
+                    (no mayor de 50)</p>
+                <input type="number" class="form-control mr-2" id="num_16" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto25()">Punto 25</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta25"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">26. Un script que escriba los números del 1 al 500, que indique cuales son múltiplos de
+                    4 y de 9 y
+                    que cada 5 líneas muestre una línea horizontal</p>
+                <button type="button" class="btn btn-primary" onclick="punto26()">Punto 26</button>
+                <div class="d-inline">Respuesta: <p class="d-inline" id="respuesta26"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

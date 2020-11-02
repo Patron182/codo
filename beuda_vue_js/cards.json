@@ -1,0 +1,40 @@
+{
+    "cards": [
+        {
+            "word": "안녕하세요",
+            "meaning": "Hola"
+        },
+        {
+            "word": "감사합니다",
+            "meaning": "Gracias"
+        },
+        {
+            "word": "있다",
+            "meaning": "Tener"
+        },
+        {
+            "word": "이다",
+            "meaning": "Ser"
+        },
+        {
+            "word": "알다",
+            "meaning": "Saber"
+        },
+        {
+            "word": "없다",
+            "meaning": "No tener"
+        },
+        {
+            "word": "모르다",
+            "meaning": "No saber"
+        },
+        {
+            "word": "밤",
+            "meaning": "Noche"
+        },
+        {
+            "word": "아침",
+            "meaning": "Mañana"
+        }
+    ]
+}

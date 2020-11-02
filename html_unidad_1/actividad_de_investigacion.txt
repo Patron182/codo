@@ -1,0 +1,22 @@
+Este es un cuestionario de temas que posiblemente no estén detallados o mencionados en el material del aula virtual, te invitamos a investigar en internet sobre estas preguntas para que puedas profundizar tus conocimientos en el tema.
+
+
+1- ¿Qué otros editores de código podés encontrar en la web que no sean gratuitos?
+
+- Toda la suit de JetBrains, incluye diversos ides
+- Visual Studio (el otro)
+- QtCreator
+- Komodo
+
+2- ¿Por qué no utilizamos Word de Microsoft para escribir el código de una página web?
+
+En realidad se puede usar, a modo de anécdota la primera pagina web que hice fue con el word, sin embargo no es una buena herramienta ya que la idea es crear la pagina ordenando elementos visualmente y el se encarga de transformarla a html, esta practica la usan otros editores como el Dreamweaver pero en el caso del word todo es muy rudimentario y por lo general crea código basura.
+ 
+
+3- ¿Cuál es la diferencia entre Front-End, Back-End y FullStack?
+
+Front-End hace referencia a la parte que muestra la información y permite que el usuario interactúe con el programa, en el ámbito de una aplicación web hablamos de un navegador y diversas herramientas como HTML, JS y CSS.
+
+Back-End es la parte que contiene el acceso a los datos (base de datos) y la lógica de nuestro programa.
+
+FullStack es la suma de conocimientos tanto en Front-End y Back-End para poder desarrollar una aplicación web desde cero.

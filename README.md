@@ -1,2 +1,1 @@
-# codo
-Trabajos prácticos
+En este repo se subirán los diferentes trabajos prácticos vistos en el curso Full Stack Python de Codo a Codo

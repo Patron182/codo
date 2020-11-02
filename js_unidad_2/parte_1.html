@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <title>JS Unidad 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/unidad_2_1.js">
+    </script>
+</head>
+
+<body class="container mt-3">
+    <h4>Ejercicios adicionales Unidad 2 Parte 1</h4>
+    <div class="list-group">
+        <div class="list-group-item">
+            <p class="w-100">1.Realizar una función, a la que se le pase como parámetro un número N, y muestre por
+                consola N veces, el siguiente mensaje: “Bienvenidos al curso Full Stack”</p>
+            <button type="button" class="btn btn-primary" onclick="punto1()">Punto 1</button>
+            <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta1"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">2.Diseñar una función que tenga como parámetros dos números, y que calcule el máximo.
+                </p>
+                <input type="number" class="form-control mr-2" id="num_1" placeholder="Número">
+                <input type="number" class="form-control mr-2" id="num_2" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto2()">Punto 2</button>
+                <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta2"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">3.Crear una función que se llame promedio3,que reciba como parámetro tres valores y
+                devuelva el promedio de los mismos.</p>
+            <div class="form-inline">
+                <input type="number" class="form-control mr-2" id="num_3" placeholder="Número">
+                <input type="number" class="form-control mr-2" id="num_4" placeholder="Número">
+                <input type="number" class="form-control mr-2" id="num_5" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto3()">Punto 3</button>
+                <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta3"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">4.Crear una función que lea notas hasta que ingrese -1 y devuelve el promedio de las notas
+                leídas. ( aunque no se suele leer valores en una función)</p>
+            <button type="button" class="btn btn-primary" onclick="punto4()">Punto 4</button>
+            <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta4"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">5.Una función que se llame siguiente, que reciba como parámetro un valor entero, y
+                    devuelva el siguiente del número ingresado como parámetro</p>
+
+                <button type="button" class="btn btn-primary" onclick="punto5()">Punto 5</button>
+                <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta5"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">6.Una función que se llame doble, que reciba como parámetro un valor, y devuelva el doble
+                del número ingresado como parámetro.</p>
+            <button type="button" class="btn btn-primary" onclick="punto6()">Punto 6</button>
+            <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta6"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">7.Una función que se llame cuadrado, que reciba como parámetro un valor, y devuelva el
+                    valor del numero ingresado como parámetro elevado al cuadrado.
+                </p>
+                <button type="button" class="btn btn-primary" onclick="punto7()">Punto 7</button>
+                <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta7"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">8.Una función que se denomine imprimirValores que dado un número por parámetro, imprima
+                    cual es el valor siguiente, el doble y el cuadrado. Usando las funciones definidas en los puntos 5)
+                    , 6) y 7) : siguiente, el dobleyel cuadrado.</p>
+                <button type="button" class="btn btn-primary" onclick="punto8()">Punto 8</button>
+                <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta8"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">9.Una función que se denomine imprimirElDobleDelSiguiente que dado un número por
+                    parámetro, imprima cual es el valor siguiente al el doble. Usando las funciones definidas en los
+                    puntos 5) , 6) : siguiente, el doble.</p>
+                <button type="button" class="btn btn-primary" onclick="punto9()">Punto 9</button>
+                <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta9"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <p class="w-100">10.Una función que se denomine imprimirElDobleDelSiguienteAlCuadrado que dado un número por
+                parámetro, imprima cual es el valor siguiente al el doble. Usando las funciones definidas en los puntos
+                5) , 6) y 7) : siguiente, el doble y el cuadrado</p>
+            <button type="button" class="btn btn-primary" onclick="punto10()">Punto 10</button>
+            <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta10"></p>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">11.una función que dado la longitud de un lado de un cuadrado devuelva el perímetro</p>
+                <input type="number" class="form-control mr-2" id="num_6" placeholder="Lado">
+                <button type="button" class="btn btn-primary" onclick="punto11()">Punto 11</button>
+                <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta11"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">12.una función que dado la longitud de un lado de un cuadrado devuelva la superficie.
+                </p>
+                <input type="number" class="form-control mr-2" id="num_7" placeholder="Lado">
+                <button type="button" class="btn btn-primary" onclick="punto12()">Punto 12</button>
+                <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta12"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">13.una función que dado el radio de una círculo devuelva la circunferencia ( perimetro
+                    del circulo)</p>
+                <input type="number" class="form-control mr-2" id="num_8" placeholder="Radio">
+                <button type="button" class="btn btn-primary" onclick="punto13()">Punto 13</button>
+                <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta13"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">14.una función que dado el radio de una círculo devuelva el area del circulo</p>
+                <input type="number" class="form-control mr-2" id="num_8" placeholder="Número">
+                <button type="button" class="btn btn-primary" onclick="punto14()">Punto 14</button>
+                <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta14"></p>
+                </div>
+            </div>
+        </div>
+        <div class="list-group-item">
+            <div class="form-inline">
+                <p class="w-100">Seleccione una fecha, la misma sera usada para resolver los puntos del 15 al 20</p>
+                <input type="date" class="form-control mr-2" id="input_date" placeholder="Fecha">
+            </div>
+        </div>
+    </div>
+    <div class="list-group-item">
+        <div class="form-inline">
+            <p class="w-100">15.una función que dado un número de mes y me devuelva la cantidad de días de ese
+                mes(suponiendo que no es un año bisiesto)</p>
+            <button type="button" class="btn btn-primary" onclick="punto15()">Punto 15</button>
+            <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta15"></p>
+            </div>
+        </div>
+    </div>
+    <div class="list-group-item">
+        <div class="form-inline">
+            <p class="w-100">16.Una función que reciba como parámetro un año y diga si ese año es bisiesto (googlear
+                cuando un año es bisiesto)</p>
+            <button type="button" class="btn btn-primary" onclick="punto16()">Punto 16</button>
+            <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta16"></p>
+            </div>
+        </div>
+    </div>
+    <div class="list-group-item">
+        <div class="form-inline">
+            <p class="w-100">17.una función que reciba el dia, mes y año y me devuelva la cantidad de días de ese
+                mes</p>
+            <button type="button" class="btn btn-primary" onclick="punto17()">Punto 17</button>
+            <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta17"></p>
+            </div>
+        </div>
+    </div>
+    <div class="list-group-item">
+        <div class="form-inline">
+            <p class="w-100">18.una función que reciba dia,mes y año y devuelva el dia siguiente</p>
+            <button type="button" class="btn btn-primary" onclick="punto18()">Punto 18</button>
+            <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta18"></p>
+            </div>
+        </div>
+    </div>
+    <div class="list-group-item">
+        <div class="form-inline">
+            <p class="w-100">19.una función que reciba dia,mes yaño y devuelva el dia anterior</p>
+            <button type="button" class="btn btn-primary" onclick="punto19()">Punto 19</button>
+            <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta19"></p>
+            </div>
+        </div>
+    </div>
+    <div class="list-group-item">
+        <div class="form-inline">
+            <p class="w-100">20.una función que se llame ultimoDiaDelMes que reciba díia,mes y año y devuelva el
+                último día del mes</p>
+            <button type="button" class="btn btn-primary" onclick="punto20()">Punto 20</button>
+            <div class="d-inline ml-2">Respuesta: <p class="d-inline" id="respuesta20"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>

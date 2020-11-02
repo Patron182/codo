@@ -1,0 +1,12 @@
+header, footer {
+    background-color: #eee;
+}
+
+a:link, a:hover, a:focus, a:visited {
+    color: #000;
+    background-color: #ccc;
+}
+
+h1, .center {
+    text-align: center;
+}
